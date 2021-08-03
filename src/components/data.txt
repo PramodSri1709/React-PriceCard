@@ -1,0 +1,29 @@
+  const [subscribe, setSubscribe] = useState(false)
+
+
+const handleClick = () => {
+
+  setSubscribe(
+      !subscribe 
+  );
+
+  setTimeout(()=>{
+    setSubscribe(
+      subscribe 
+  );
+  },2000)
+ 
+}
+
+  return (
+    <div className="App">
+     <PriceCard2
+          data = {Data}
+          handleClick = {handleClick}
+          subscribe = {subscribe}
+      />
+    </div>
+  );
+}
+
+
