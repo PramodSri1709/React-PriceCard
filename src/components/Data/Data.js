@@ -1,5 +1,6 @@
 const Data = [
-    {
+    {   
+        id : 1,
         freeornot : "Free",
         price : "$0",
         month: "/month",
@@ -14,8 +15,10 @@ const Data = [
 
     },
     {
-        freeornot : "Free",
-        price : "$0 /month ",
+        id : 2,
+        freeornot : "plus",
+        price : "$9",
+        month: "/month",
         userType : "Sigleuser",
         storage: "5GB Storage",
         projectType : "unlimited Public Project",
@@ -27,8 +30,10 @@ const Data = [
 
     },
     {
-        freeornot : "Free",
-        price : "$0 /month ",
+        id : 3,
+        freeornot : "pro",
+        price : "$49",
+        month: "/month",
         userType : "Sigleuser",
         storage: "5GB Storage",
         projectType : "unlimited Public Project",

@@ -84,4 +84,9 @@ section.pricing {
   }
 .card2{
     padding-top: 3%;
+    padding-bottom: 20%;
+}
+.card{
+    border-radius: 5px !important;
+    
 }
